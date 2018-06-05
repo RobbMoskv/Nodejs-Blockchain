@@ -13,7 +13,7 @@ let myAddress = 'FF0xRobbMoskv8shabsv888';
 // Add value
 ownCoin.addTransactionToPool(new Transaction('FF0x92Hksn7Hbsjhb2vSIaa', 'FF0x09jDbnkai2hULVlskjj', '0.5'));
 ownCoin.addTransactionToPool(new Transaction('FF0x92Hksn7Hbsjhb2vSIaa', 'FF0xjNSBY36hsVJFKlKSN28', '1.5'));
-// ownCoin.addTransactionToPool(new Transaction('FF0xjNSBY36hsVJFKlKSN28', 'FF0xRobbMoskv8shabsv888', '0.8'));
+ownCoin.addTransactionToPool(new Transaction('FF0xjNSBY36hsVJFKlKSN28', 'FF0xRobbMoskv8shabsv888', '0.8'));
 ownCoin.addTransactionToPool(new Transaction('FF0xjNSBY36hsVJFKlKSN28', 'FF0xjNSBY36hsVJFKlKSN28', '0.03'));
 
 console.log('Starting the miner...');

@@ -13,6 +13,8 @@ and add Block objects to it via responsible Methods
 
 ```javascript
 // Add value to the chain
-console.log('Mining Block 1...');
-ownCoin.addBlock(new Block(1, "30/05/2018", {OC: 1.0}));
+ownCoin.addTransactionToPool(new Transaction('FF0x92Hksn7Hbsjhb2vSIaa', 'FF0x09jDbnkai2hULVlskjj', '0.5'));
+
+console.log('Starting the miner...');
+ownCoin.minePendingTransactions(myAddress);s
 ```
