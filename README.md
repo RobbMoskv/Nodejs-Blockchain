@@ -1,7 +1,7 @@
-# Node.js - Simple Blockchain example in Javascript
+# Node.js - A simple Blockchain example in Javascript
 
-This is a simple example of how Blockchain is working.
-It was implementen with Javascript in Node.js
+This is a simple example of how Blockchain is basically working.
+It was implemented with Javascript in Node.js and does of course not reflect a real Blockchain.
 
 Create Instance of the Blockchain class
 
