@@ -16,5 +16,5 @@ and add Block objects to it via responsible Methods
 ownCoin.addTransactionToPool(new Transaction('FF0x92Hksn7Hbsjhb2vSIaa', 'FF0x09jDbnkai2hULVlskjj', '0.5'));
 
 console.log('Starting the miner...');
-ownCoin.minePendingTransactions(myAddress);s
+ownCoin.minePendingTransactions(myAddress);
 ```

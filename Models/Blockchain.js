@@ -46,8 +46,10 @@ class Blockchain{
     // Method: Get Balance of specific Address
     getBalanceofAddress(address){
         let balance = 0;
+
         // loop through each block
         for(const block of this.chain){
+
             // and each transaction of a block
             for(const tx of block.transactions){
                 // Decrease amount if money was sent
@@ -67,6 +69,7 @@ class Blockchain{
 
     // Method: Check if chain is valid
     isChainValid(){
+        
         // loop trough each block
         for(let i = 1; i < this.chain.length; i++){
             const currentBlock = this.chain[i];
