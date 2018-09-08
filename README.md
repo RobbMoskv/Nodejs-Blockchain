@@ -24,6 +24,6 @@ ownCoin.minePendingTransactions(myAddress);
 
 ## Used libraries
 
-..* [eckey](http://cryptocoinjs.com/modules/currency/eckey/)
-..* [CoinKey](https://github.com/cryptocoinjs/coinkey)
-..* [Generating a Bitcoin Address with JavaScript](http://procbits.com/2013/08/27/generating-a-bitcoin-address-with-javascript)
+* [eckey](http://cryptocoinjs.com/modules/currency/eckey/)
+* [CoinKey](https://github.com/cryptocoinjs/coinkey)
+* [Generating a Bitcoin Address with JavaScript](http://procbits.com/2013/08/27/generating-a-bitcoin-address-with-javascript)
